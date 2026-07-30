@@ -1,0 +1,1443 @@
+2026-07-14T15:52:27.2940687+08:00 [INF]
+FastGithub.HttpServer
+已监听https://localhost:444，https反向代理服务启动完成
+
+2026-07-14T15:52:27.3594455+08:00 [INF]
+FastGithub.HttpServer
+已监听http://localhost:82，http反向代理服务启动完成
+
+2026-07-14T15:52:27.4399068+08:00 [INF]
+FastGithub.HttpServer
+已监听ssh://localhost:23，github的ssh反向代理服务启动完成
+
+2026-07-14T15:52:27.4412230+08:00 [INF]
+FastGithub.HttpServer
+已监听git://localhost:9419，github的git反向代理服务启动完成
+
+2026-07-14T15:52:27.4549627+08:00 [WRN]
+FastGithub
+程序将自动关闭：系统已运行其它实例
+
+2026-07-14T15:55:37.7073828+08:00 [INF]
+FastGithub.HttpServer
+已监听https://localhost:443，https反向代理服务启动完成
+
+2026-07-14T15:55:37.7598408+08:00 [INF]
+FastGithub.HttpServer
+已监听http://localhost:81，http反向代理服务启动完成
+
+2026-07-14T15:55:37.8362351+08:00 [INF]
+FastGithub.HttpServer
+已监听ssh://localhost:22，github的ssh反向代理服务启动完成
+
+2026-07-14T15:55:37.8373312+08:00 [INF]
+FastGithub.HttpServer
+已监听git://localhost:9418，github的git反向代理服务启动完成
+
+2026-07-14T15:55:37.8887955+08:00 [INF]
+FastGithub.AppHostedService
+FastGithub启动完成，当前版本为v2.1.5，访问 https://github.com/WangGithubUser/FastGithub 关注新版本
+
+2026-07-14T15:55:37.9794451+08:00 [INF]
+FastGithub.PacketIntercept.Tcp.HttpInterceptor
+127.0.0.1:80 <=> 127.0.0.1:81
+
+2026-07-14T15:55:37.9814041+08:00 [INF]
+FastGithub.PacketIntercept.Tcp.HttpInterceptor
+::1:80 <=> ::1:81
+
+2026-07-14T15:55:57.1794953+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+marketplace.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2026-07-14T15:55:57.4731868+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+marketplace.visualstudio.com:443->[150.171.73.16, 150.171.74.16]
+
+2026-07-14T15:56:35.4901193+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+copilot-telemetry.githubusercontent.com@119.29.29.29:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2026-07-14T15:56:36.9353456+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.113.22, 140.82.114.22]
+
+2026-07-14T15:56:43.7102747+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+westus-0.in.applicationinsights.azure.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2026-07-14T15:56:44.0094273+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+westus-0.in.applicationinsights.azure.com:443->[20.189.172.33, 20.189.172.32]
+
+2026-07-14T15:56:46.0723946+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2026-07-14T15:56:46.4129824+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[150.171.110.133, 150.171.110.135, 150.171.109.211]
+
+2026-07-14T15:57:10.7471758+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.113.22, 140.82.113.21, 140.82.114.22]
+
+2026-07-14T15:57:52.0510769+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.113.22, 140.82.113.21, 140.82.114.21]
+
+2026-07-14T15:58:56.6252419+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.112.21, 140.82.112.22, 140.82.113.22]
+
+2026-07-14T16:00:05.1558463+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+westus-0.in.applicationinsights.azure.com:443->[20.189.172.33, 20.189.172.32, 20.189.172.73]
+
+2026-07-14T16:00:59.1459264+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+marketplace.visualstudio.com:443->[150.171.74.16, 150.171.73.16]
+
+2026-07-14T16:01:37.1332744+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.112.21, 140.82.112.22, 140.82.113.21]
+
+2026-07-14T16:01:47.1039297+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[150.171.110.135, 150.171.110.133, 150.171.110.52]
+
+2026-07-14T16:01:48.6651430+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[150.171.110.135, 150.171.110.133, 150.171.109.147]
+
+2026-07-14T16:02:11.9014564+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.112.21, 140.82.112.22, 140.82.113.22]
+
+2026-07-14T16:02:49.6711437+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.226.43, 13.107.253.43, 150.171.110.135]
+
+2026-07-14T16:02:54.6257968+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.112.21, 140.82.112.22, 140.82.114.21]
+
+2026-07-14T16:03:57.3131500+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.114.21, 140.82.113.22, 140.82.114.22]
+
+2026-07-14T16:05:07.3423426+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+westus-0.in.applicationinsights.azure.com:443->[20.189.172.33, 20.189.172.73, 20.189.172.32]
+
+2026-07-14T16:05:40.0502920+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->127.0.0.1
+
+2026-07-14T16:05:42.1002866+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Unhandled exception while processing 0HNN1FL5L0EH8.
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   at FastGithub.HttpServer.TcpMiddlewares.TcpReverseProxyHandler.CreateConnectionAsync(CancellationToken cancellationToken)
+   at FastGithub.HttpServer.TcpMiddlewares.TcpReverseProxyHandler.CreateConnectionAsync(CancellationToken cancellationToken)
+   at FastGithub.HttpServer.TcpMiddlewares.TcpReverseProxyHandler.OnConnectedAsync(ConnectionContext context)
+   at FastGithub.ListenOptionsExtensions.<>c__DisplayClass0_1.<<UseFlowAnalyze>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at FastGithub.ListenOptionsExtensions.<>c__DisplayClass0_1.<<UseFlowAnalyze>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.KestrelConnection`1.ExecuteAsync()
+
+2026-07-14T16:05:49.6861593+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:22->[20.205.243.166]
+
+2026-07-14T16:06:00.8733385+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+marketplace.visualstudio.com:443->[150.171.73.16, 150.171.74.16]
+
+2026-07-14T16:06:04.4108596+08:00 [ERR]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://github.com/anthropics/claude-plugins-official.git/info/refs responded 502 in 20754.2825 ms
+System.Net.Http.HttpRequestException: 找不到任何可成功连接的IP (140.82.121.4) (20.205.243.166) (github.com:443)
+ ---> System.AggregateException: 找不到任何可成功连接的IP (140.82.121.4) (20.205.243.166)
+ ---> FastGithub.Http.HttpConnectTimeoutException: 140.82.121.4
+   --- End of inner exception stack trace ---
+   at FastGithub.Http.HttpClientHandler.ConnectCallback(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String, Int32, HttpRequestMessage, Boolean, CancellationToken)
+ ---> (Inner Exception #1) FastGithub.Http.HttpConnectTimeoutException: 20.205.243.166<---
+
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String, Int32, HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionAsync(Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage, Boolean, Boolean, CancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2026-07-14T16:06:24.6672513+08:00 [ERR]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://github.com/anthropics/claude-plugins-official.git/info/refs responded 502 in 20014.0952 ms
+System.Net.Http.HttpRequestException: 找不到任何可成功连接的IP (140.82.121.4) (20.205.243.166) (github.com:443)
+ ---> System.AggregateException: 找不到任何可成功连接的IP (140.82.121.4) (20.205.243.166)
+ ---> FastGithub.Http.HttpConnectTimeoutException: 140.82.121.4
+   --- End of inner exception stack trace ---
+   at FastGithub.Http.HttpClientHandler.ConnectCallback(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String, Int32, HttpRequestMessage, Boolean, CancellationToken)
+ ---> (Inner Exception #1) FastGithub.Http.HttpConnectTimeoutException: 20.205.243.166<---
+
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String, Int32, HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionAsync(Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage, Boolean, Boolean, CancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2026-07-14T16:06:38.1406774+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.114.21, 140.82.114.22, 140.82.113.21]
+
+2026-07-14T16:06:40.8438642+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.26.156.215]
+
+2026-07-14T16:06:41.1224536+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:22->[20.205.243.166, 20.26.156.215]
+
+2026-07-14T16:06:41.4254987+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.114.21, 140.82.113.21, 140.82.113.22]
+
+2026-07-14T16:06:44.9715842+08:00 [ERR]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://github.com/anthropics/claude-plugins-official.git/info/refs responded 502 in 20025.2583 ms
+System.Net.Http.HttpRequestException: 找不到任何可成功连接的IP (140.82.121.4) (20.205.243.166) (github.com:443)
+ ---> System.AggregateException: 找不到任何可成功连接的IP (140.82.121.4) (20.205.243.166)
+ ---> FastGithub.Http.HttpConnectTimeoutException: 140.82.121.4
+   --- End of inner exception stack trace ---
+   at FastGithub.Http.HttpClientHandler.ConnectCallback(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String, Int32, HttpRequestMessage, Boolean, CancellationToken)
+ ---> (Inner Exception #1) FastGithub.Http.HttpConnectTimeoutException: 20.205.243.166<---
+
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String, Int32, HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionAsync(Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage, Boolean, Boolean, CancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2026-07-14T16:06:45.1950604+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->127.0.0.1
+
+2026-07-14T16:06:45.1959399+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->::1
+
+2026-07-14T16:06:45.7944143+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+westus-0.in.applicationinsights.azure.com:443->[20.189.172.73, 20.189.172.32, 20.189.172.33]
+
+2026-07-14T16:07:42.6926392+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.26.156.215, 140.82.113.4]
+
+2026-07-14T16:07:43.1196500+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:22->[20.205.243.166, 140.82.113.4, 20.26.156.215]
+
+2026-07-14T16:08:58.9031397+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.112.22, 140.82.114.21, 140.82.113.21]
+
+2026-07-14T16:09:25.7366014+08:00 [INF]
+FastGithub.AppHostedService
+正在主动关闭，因为父进程已退出
+
+2026-07-14T16:09:30.4902897+08:00 [INF]
+FastGithub.HttpServer
+已监听https://localhost:443，https反向代理服务启动完成
+
+2026-07-14T16:09:30.5408127+08:00 [INF]
+FastGithub.HttpServer
+已监听http://localhost:81，http反向代理服务启动完成
+
+2026-07-14T16:09:30.6176847+08:00 [INF]
+FastGithub.HttpServer
+已监听ssh://localhost:22，github的ssh反向代理服务启动完成
+
+2026-07-14T16:09:30.6187923+08:00 [INF]
+FastGithub.HttpServer
+已监听git://localhost:9418，github的git反向代理服务启动完成
+
+2026-07-14T16:09:30.6717784+08:00 [INF]
+FastGithub.AppHostedService
+FastGithub启动完成，当前版本为v2.1.5，访问 https://github.com/WangGithubUser/FastGithub 关注新版本
+
+2026-07-14T16:09:30.7682209+08:00 [INF]
+FastGithub.PacketIntercept.Tcp.HttpInterceptor
+127.0.0.1:80 <=> 127.0.0.1:81
+
+2026-07-14T16:09:30.7700389+08:00 [INF]
+FastGithub.PacketIntercept.Tcp.HttpInterceptor
+::1:80 <=> ::1:81
+
+2026-07-14T16:09:45.3412576+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.87.245.0]
+
+2026-07-14T16:09:47.4917721+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.113.22, 140.82.114.21, 140.82.114.22]
+
+2026-07-14T16:09:49.6110504+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+marketplace.visualstudio.com:443->[150.171.73.16, 150.171.74.16]
+
+2026-07-14T16:09:51.7703075+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[150.171.110.135, 150.171.110.133, 150.171.110.54]
+
+2026-07-14T16:09:54.1434796+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+westus-0.in.applicationinsights.azure.com:443->[20.189.172.32, 20.189.172.33]
+
+2026-07-14T16:09:56.1520109+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:22->[20.205.243.166, 20.87.245.0]
+
+2026-07-14T16:10:08.1372851+08:00 [INF]
+FastGithub.AppHostedService
+正在主动关闭，因为父进程已退出
+
+2026-07-14T16:10:15.5910478+08:00 [INF]
+FastGithub.HttpServer
+已监听https://localhost:443，https反向代理服务启动完成
+
+2026-07-14T16:10:15.6427703+08:00 [INF]
+FastGithub.HttpServer
+已监听http://localhost:81，http反向代理服务启动完成
+
+2026-07-14T16:10:15.7198052+08:00 [INF]
+FastGithub.HttpServer
+已监听ssh://localhost:22，github的ssh反向代理服务启动完成
+
+2026-07-14T16:10:15.7209521+08:00 [INF]
+FastGithub.HttpServer
+已监听git://localhost:9418，github的git反向代理服务启动完成
+
+2026-07-14T16:10:15.7727215+08:00 [INF]
+FastGithub.AppHostedService
+FastGithub启动完成，当前版本为v2.1.5，访问 https://github.com/WangGithubUser/FastGithub 关注新版本
+
+2026-07-14T16:10:15.8541919+08:00 [INF]
+FastGithub.PacketIntercept.Tcp.HttpInterceptor
+127.0.0.1:80 <=> 127.0.0.1:81
+
+2026-07-14T16:10:15.8561297+08:00 [INF]
+FastGithub.PacketIntercept.Tcp.HttpInterceptor
+::1:80 <=> ::1:81
+
+2026-07-14T16:10:32.9838067+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+westus-0.in.applicationinsights.azure.com:443->[20.189.172.32, 20.189.172.33]
+
+2026-07-14T16:10:39.8827835+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:22->[20.205.243.166]
+
+2026-07-14T16:10:41.8620048+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+marketplace.visualstudio.com:443->[150.171.73.16, 150.171.74.16]
+
+2026-07-14T16:10:50.9957004+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[150.171.110.135, 150.171.109.193]
+
+2026-07-14T16:10:54.0535108+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.114.21, 140.82.113.21, 140.82.114.22]
+
+2026-07-14T16:11:06.5460517+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.114.21, 140.82.113.21, 140.82.112.21]
+
+2026-07-14T16:11:14.1190353+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[150.171.110.133, 150.171.110.135, 150.171.109.193]
+
+2026-07-14T16:11:49.7376371+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[150.171.110.133, 150.171.110.135, 150.171.110.54]
+
+2026-07-14T16:11:54.3149874+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+login.live.com->127.0.0.1
+
+2026-07-14T16:11:56.6457512+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+POST https://login.live.com/RST2.srf responded 200 in 2063.3105 ms
+
+2026-07-14T16:11:57.3303564+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.148.165, 20.190.148.167, 20.190.144.162]
+
+2026-07-14T16:12:37.5895430+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.26.156.215]
+
+2026-07-14T16:12:37.8611341+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:22->[20.205.243.166, 20.26.156.215]
+
+2026-07-14T16:13:06.7996279+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.114.21, 140.82.112.22, 140.82.113.21]
+
+2026-07-14T16:13:37.6282574+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.27.177.113, 20.26.156.215]
+
+2026-07-14T16:13:37.6885062+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:22->[20.27.177.113, 20.205.243.166, 20.26.156.215]
+
+2026-07-14T16:14:05.2588659+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+westus-0.in.applicationinsights.azure.com:443->[20.189.172.73, 20.189.172.32, 20.189.172.33]
+
+2026-07-14T16:14:43.4719828+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.144.161, 20.190.148.163, 20.190.148.165]
+
+2026-07-14T16:14:57.7468467+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[150.171.110.136, 150.171.110.133, 150.171.110.135]
+
+2026-07-14T16:15:35.4500757+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+marketplace.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2026-07-14T16:15:37.3593025+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2026-07-14T16:15:40.5266143+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+westus-0.in.applicationinsights.azure.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2026-07-14T16:16:02.3101535+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Unable to read data from the transport connection: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+
+2026-07-14T16:16:17.0652616+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2026-07-14T16:16:17.5192386+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[150.171.110.136, 150.171.110.135, 150.171.110.133]
+
+2026-07-14T16:16:20.2850717+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+copilot-telemetry.githubusercontent.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2026-07-14T16:16:20.7076811+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.114.21, 140.82.113.21, 140.82.112.21]
+
+2026-07-14T16:16:28.1607529+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+login.live.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2026-07-14T16:16:31.2429919+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+marketplace.visualstudio.com:443->[150.171.74.16, 150.171.73.16]
+
+2026-07-14T16:16:37.5588350+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.27.177.113, 20.205.243.166, 20.26.156.215]
+
+2026-07-14T16:16:42.9820174+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.113.22, 140.82.114.21, 140.82.113.21]
+
+2026-07-14T16:17:00.0780275+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.144.161, 20.190.148.162, 20.190.148.165]
+
+2026-07-14T16:17:45.5141047+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[150.171.110.138, 150.171.110.136, 150.171.110.135]
+
+2026-07-14T16:18:25.9584637+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.166.132, 20.190.144.161, 20.190.166.131]
+
+2026-07-14T16:18:36.8370383+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+login.live.com->127.0.0.1
+
+2026-07-14T16:18:37.3847597+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+POST https://login.live.com/RST2.srf responded 200 in 465.9135 ms
+
+2026-07-14T16:19:43.4784552+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.166.132, 20.190.166.131, 20.190.166.133]
+
+2026-07-14T16:20:44.2405148+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+westus-0.in.applicationinsights.azure.com:443->[20.189.172.73, 20.189.172.33, 20.189.172.32]
+
+2026-07-14T16:21:18.8152946+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[150.171.110.138, 150.171.110.136, 150.171.110.133]
+
+2026-07-14T16:21:21.2768872+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.114.21, 140.82.113.22, 140.82.114.22]
+
+2026-07-14T16:21:31.6763624+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+marketplace.visualstudio.com:443->[150.171.73.16, 150.171.74.16]
+
+2026-07-14T16:22:46.0292244+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[150.171.110.136, 150.171.110.138, 150.171.110.133]
+
+2026-07-14T16:23:25.9945535+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.166.68, 20.190.166.67, 20.190.166.131]
+
+2026-07-14T16:24:06.7543971+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+westus-0.in.applicationinsights.azure.com:443->[20.189.172.33, 20.189.172.32, 20.189.172.73]
+
+2026-07-14T16:24:36.2700081+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:22->[20.205.243.166, 20.26.156.215]
+
+2026-07-14T16:24:36.2744308+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.26.156.215]
+
+2026-07-14T16:24:52.7077115+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:22->[20.205.243.166, 20.26.156.215, 140.82.116.4]
+
+2026-07-14T16:24:52.9107062+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.116.4, 20.26.156.215]
+
+2026-07-14T16:25:00.0165239+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[150.171.110.138, 150.171.110.133, 150.171.110.136]
+
+2026-07-14T16:25:27.7251176+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[150.171.110.138, 150.171.110.133, 150.171.110.135]
+
+2026-07-14T16:25:48.9148069+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+marketplace.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2026-07-14T16:27:09.5345380+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+westus-0.in.applicationinsights.azure.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2026-07-14T16:27:09.8848613+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+westus-0.in.applicationinsights.azure.com:443->[20.189.172.32, 20.189.172.73, 20.189.172.33]
+
+2026-07-14T16:27:34.5764744+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Unable to read data from the transport connection: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+
+2026-07-14T16:27:34.9250054+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[140.82.116.4, 20.205.243.166, 20.26.156.215]
+
+2026-07-14T16:27:59.9243618+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.113.21, 140.82.112.21, 140.82.114.21]
+
+2026-07-14T16:28:22.9506863+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2026-07-14T16:28:23.3733217+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[150.171.110.138, 150.171.110.135, 150.171.110.133]
+
+2026-07-14T16:28:28.5555297+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.144, 40.126.35.19, 40.126.35.151]
+
+2026-07-14T16:28:31.7368715+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+marketplace.visualstudio.com:443->[150.171.74.16, 150.171.73.16]
+
+2026-07-14T16:28:37.1489556+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2026-07-14T16:28:37.5828641+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:22->[20.205.243.166, 140.82.114.4, 20.26.156.215]
+
+2026-07-14T16:28:39.2331143+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[140.82.116.4, 20.205.243.166, 140.82.114.4]
+
+2026-07-14T16:29:01.9797749+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+copilot-telemetry.githubusercontent.com@119.29.29.29:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2026-07-14T16:29:05.1432397+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[150.171.110.135, 150.171.110.133, 150.171.110.54]
+
+2026-07-14T16:29:05.4229224+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.87, 40.126.35.85, 40.126.35.151]
+
+2026-07-14T16:31:35.7265636+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+login.live.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2026-07-14T16:31:44.0449262+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:22->[20.205.243.166, 140.82.114.4, 140.82.116.4]
+
+2026-07-14T16:31:49.8031178+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[150.171.110.134, 150.171.110.135, 150.171.110.133]
+
+2026-07-14T16:32:10.9606016+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+westus-0.in.applicationinsights.azure.com:443->[20.189.172.33, 20.189.172.32, 20.189.172.73]
+
+2026-07-14T16:32:35.8445817+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.116.4, 140.82.114.4]
+
+2026-07-14T16:33:00.4753772+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.113.21, 140.82.113.22, 140.82.114.21]
+
+2026-07-14T16:33:29.9194784+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.144.138, 40.126.35.145, 40.126.35.84]
+
+2026-07-14T16:33:32.3051213+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+marketplace.visualstudio.com:443->[150.171.73.16, 150.171.74.16]
+
+2026-07-14T16:34:17.9755299+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+login.live.com->127.0.0.1
+
+2026-07-14T16:34:18.6754800+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+POST https://login.live.com/RST2.srf responded 200 in 594.3669 ms
+
+2026-07-14T16:34:54.6807000+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:22->[20.205.243.166, 140.82.116.4, 140.82.114.4]
+
+2026-07-14T16:35:14.2535751+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.144.138, 40.126.35.84, 40.126.35.64]
+
+2026-07-14T16:35:34.9157096+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:22->[20.205.243.166, 140.82.114.4, 4.225.11.194]
+
+2026-07-14T16:35:34.9206692+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.114.4, 140.82.114.3]
+
+2026-07-14T16:36:12.4332687+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+marketplace.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2026-07-14T16:37:20.2505837+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+westus-0.in.applicationinsights.azure.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2026-07-14T16:37:20.4216837+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+westus-0.in.applicationinsights.azure.com:443->[20.189.172.73, 20.189.172.32, 20.189.172.33]
+
+2026-07-14T16:37:41.9332910+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2026-07-14T16:37:45.8521064+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:22->[20.205.243.166, 140.82.114.4, 140.82.114.3]
+
+2026-07-14T16:38:03.3469022+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.112.22, 140.82.114.21, 140.82.113.22]
+
+2026-07-14T16:38:26.3532246+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2026-07-14T16:38:30.9887877+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.128, 40.126.35.20, 40.126.35.19]
+
+2026-07-14T16:38:59.9024405+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2026-07-14T16:39:06.0564294+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.114.3, 4.225.11.194]
+
+2026-07-14T16:39:27.1126573+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+copilot-telemetry.githubusercontent.com@119.29.29.29:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2026-07-14T16:39:30.5098149+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.144.137, 20.190.144.136, 20.190.148.167]
+
+2026-07-14T16:40:07.6920667+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.26.156.215, 140.82.114.3]
+
+2026-07-14T16:40:24.3002714+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.148.165, 20.190.144.136, 20.190.144.137]
+
+2026-07-14T16:41:09.0396867+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:22->[20.205.243.166, 140.82.112.4, 140.82.114.4]
+
+2026-07-14T16:41:09.2888232+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.112.4, 20.26.156.215]
+
+2026-07-14T16:41:45.5073440+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+login.live.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2026-07-14T16:42:00.4061270+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[150.171.110.135, 150.171.110.133, 150.171.110.134]
+
+2026-07-14T16:42:23.5272069+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+westus-0.in.applicationinsights.azure.com:443->[20.189.172.32, 20.189.172.33, 20.189.172.73]
+
+2026-07-14T16:43:04.3322527+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.112.22, 140.82.114.22, 140.82.112.21]
+
+2026-07-14T16:43:26.7792307+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[150.171.110.134, 150.171.110.133, 150.171.110.135]
+
+2026-07-14T16:43:31.9760441+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.226.69, 13.107.253.69, 150.171.110.134]
+
+2026-07-14T16:43:33.5088389+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+marketplace.visualstudio.com:443->[150.171.74.16, 150.171.73.16]
+
+2026-07-14T16:43:48.0584186+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.226.69, 13.107.253.69, 150.171.110.133]
+
+2026-07-14T16:44:34.5351756+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+westus-0.in.applicationinsights.azure.com:443->[20.189.172.32, 20.189.172.73, 20.189.172.33]
+
+2026-07-14T16:45:08.1424248+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:22->[20.205.243.166, 20.26.156.215, 140.82.112.4]
+
+2026-07-14T16:45:17.3221042+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.144.137, 20.190.148.166, 20.190.144.163]
+
+2026-07-14T16:45:21.4380433+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:22->[20.205.243.166, 140.82.116.3, 20.26.156.215]
+
+2026-07-14T16:45:22.7869160+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.116.3, 140.82.112.4]
+
+2026-07-14T16:45:25.1564140+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.148.166, 20.190.144.163, 20.190.144.166]
+
+2026-07-14T16:46:51.6560238+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+marketplace.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2026-07-14T16:47:42.6693770+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+westus-0.in.applicationinsights.azure.com@119.29.29.29:53->Unable to read data from the transport connection: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+
+2026-07-14T16:47:43.9156487+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:22->[20.27.177.113, 20.205.243.166, 140.82.116.3]
+
+2026-07-14T16:47:52.8340395+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2026-07-14T16:47:53.3423115+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.27.177.113, 20.205.243.166, 140.82.116.3]
+
+2026-07-14T16:48:08.1061941+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.112.22, 140.82.114.22, 140.82.113.22]
+
+2026-07-14T16:48:50.9077659+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2026-07-14T16:48:51.3511249+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.226.69, 13.107.253.69, 150.171.110.135]
+
+2026-07-14T16:48:53.8316355+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+marketplace.visualstudio.com:443->[150.171.73.16, 150.171.74.16]
+
+2026-07-14T16:48:58.3657591+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.226.69, 13.107.253.69, 13.107.253.70]
+
+2026-07-14T16:49:33.2575673+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2026-07-14T16:49:33.6734044+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+mozilla.map.fastly.net->127.0.0.1
+
+2026-07-14T16:49:33.6749415+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+mozilla.map.fastly.net->::1
+
+2026-07-14T16:49:39.3940456+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.114.22, 140.82.112.22, 140.82.113.22]
+
+2026-07-14T16:49:41.9873446+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.148.164, 20.190.144.137, 20.190.144.165]
+
+2026-07-14T16:51:17.4081916+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+copilot-telemetry.githubusercontent.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2026-07-14T16:51:23.0188913+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.148.164, 20.190.144.165, 20.190.144.164]
+
+2026-07-14T16:51:39.6336168+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.144.139, 20.190.163.21, 40.126.16.163]
+
+2026-07-14T16:51:46.4416480+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+login.live.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2026-07-14T16:52:43.6888873+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+westus-0.in.applicationinsights.azure.com:443->[20.189.172.33, 20.189.172.73, 20.189.172.32]
+
+2026-07-14T16:53:09.3836531+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.114.21, 140.82.112.21, 140.82.114.22]
+
+2026-07-14T16:53:12.9146777+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.144.162, 20.190.144.139, 20.190.163.21]
+
+2026-07-14T16:53:52.2638432+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.253.69, 13.107.226.69, 13.107.253.70]
+
+2026-07-14T16:53:54.9351620+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.81, 20.190.148.167, 40.126.35.18]
+
+2026-07-14T16:53:56.0376013+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+marketplace.visualstudio.com:443->[150.171.74.16, 150.171.73.16]
+
+2026-07-14T16:53:58.5435401+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.253.70, 13.107.253.69, 13.107.226.69]
+
+2026-07-14T16:54:06.0849860+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.148.167, 40.126.35.18, 40.126.35.21]
+
+2026-07-14T16:54:28.5533392+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.81, 20.190.148.167, 40.126.35.18]
+
+2026-07-14T16:54:41.8354159+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.114.21, 140.82.112.21, 140.82.112.22]
+
+2026-07-14T16:55:04.8646378+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+mozilla.map.fastly.net->127.0.0.1
+
+2026-07-14T16:55:04.8671915+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+mozilla.map.fastly.net->::1
+
+2026-07-14T16:55:38.2448474+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.253.70, 13.107.226.70, 150.171.110.133]
+
+2026-07-14T16:55:50.5326971+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.27.177.113, 20.205.243.166, 140.82.114.4]
+
+2026-07-14T16:56:34.2917908+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.27.177.113, 20.205.243.166, 140.82.116.3]
+
+2026-07-14T16:56:43.1329969+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.144.160, 20.190.144.164, 40.126.35.81]
+
+2026-07-14T16:57:04.0395969+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.166.131, 20.190.166.132, 20.190.166.67]
+
+2026-07-14T16:57:19.4380566+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:22->[20.27.177.113, 20.205.243.166, 140.82.112.3]
+
+2026-07-14T16:57:19.4422690+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.27.177.113, 20.205.243.166, 140.82.114.4]
+
+2026-07-14T16:58:09.8638049+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+westus-0.in.applicationinsights.azure.com:443->[20.189.172.32, 20.189.172.33, 20.189.172.73]
+
+2026-07-14T16:59:17.4855943+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2026-07-14T16:59:29.4834432+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.113.22, 140.82.112.22, 140.82.112.21]
+
+2026-07-14T16:59:38.8284129+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+nexusrules.officeapps.live.com->127.0.0.1
+
+2026-07-14T16:59:40.9678985+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://nexusrules.officeapps.live.com/nexus/rules responded 304 in 1355.509 ms
+
+2026-07-14T16:59:52.5030498+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2026-07-14T16:59:52.9487857+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.253.43, 13.107.253.70, 13.107.226.43]
+
+2026-07-14T17:00:00.1239285+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+nexusrules.officeapps.live.com:443->[13.107.253.70, 13.107.226.69, 13.107.226.70]
+
+2026-07-14T17:00:22.8617494+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+marketplace.visualstudio.com@119.29.29.29:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2026-07-14T17:00:26.0443865+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2026-07-14T17:00:26.5140699+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:22->[20.205.243.166, 140.82.114.4, 140.82.112.3]
+
+2026-07-14T17:00:28.3538857+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.114.4, 140.82.112.3]
+
+2026-07-14T17:00:30.0905100+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.113.22, 140.82.113.21, 140.82.112.22]
+
+2026-07-14T17:00:32.0767861+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.253.43, 13.107.226.43, 150.171.110.135]
+
+2026-07-14T17:00:38.1922762+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+nexusrules.officeapps.live.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2026-07-14T17:01:52.8142272+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+login.live.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2026-07-14T17:02:06.6139735+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.166.132, 20.190.166.133, 20.190.166.66]
+
+2026-07-14T17:02:27.0716606+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:22->[20.205.243.166, 140.82.114.4, 140.82.113.4]
+
+2026-07-14T17:02:27.3727714+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.114.4, 140.82.113.4]
+
+2026-07-14T17:04:32.8711874+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.112.21, 140.82.114.21, 140.82.114.22]
+
+2026-07-14T17:04:53.6405897+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.226.43, 13.107.253.43, 150.171.110.135]
+
+2026-07-14T17:04:53.7137967+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+nexusrules.officeapps.live.com:443->[13.107.226.69, 13.107.226.70, 13.107.253.70]
+
+2026-07-14T17:05:01.8549766+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+nexusrules.officeapps.live.com:443->[13.107.226.70, 13.107.253.70, 13.107.253.69]
+
+2026-07-14T17:05:23.2495876+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+marketplace.visualstudio.com:443->[150.171.73.16, 150.171.74.16]
+
+2026-07-14T17:05:26.9267267+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:22->[20.205.243.166, 140.82.112.3, 140.82.114.4]
+
+2026-07-14T17:05:41.6570344+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.114.4, 140.82.112.3]
+
+2026-07-14T17:05:51.9411960+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:22->[20.205.243.166, 140.82.113.4, 140.82.114.4]
+
+2026-07-14T17:05:52.2376686+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.114.4, 140.82.113.4]
+
+2026-07-14T17:06:35.5046927+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:22->[20.205.243.166, 140.82.112.3, 140.82.113.4]
+
+2026-07-14T17:06:35.5115263+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.112.3, 140.82.114.4]
+
+2026-07-14T17:07:07.0698379+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.166.133, 20.190.166.131, 20.190.166.67]
+
+2026-07-14T17:07:28.7994920+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:22->[20.205.243.166, 140.82.112.3, 140.82.114.4]
+
+2026-07-14T17:07:30.3894847+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.113.4, 140.82.112.3]
+
+2026-07-14T17:07:44.3535617+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:22->[20.205.243.166, 4.237.22.38, 140.82.112.3]
+
+2026-07-14T17:07:44.5402133+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 4.237.22.38, 140.82.113.4]
+
+2026-07-14T17:07:49.1781811+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.144.139, 40.126.35.64, 40.126.35.20]
+
+2026-07-14T17:08:13.9747379+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+westus-0.in.applicationinsights.azure.com:443->[20.189.172.73, 20.189.172.33, 20.189.172.32]
+
+2026-07-14T17:08:17.5886093+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.64, 40.126.35.20, 40.126.35.81]
+
+2026-07-14T17:08:49.7033736+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.226.43, 13.107.253.43, 13.107.226.70]
+
+2026-07-14T17:09:26.8348875+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.144.161, 20.190.148.162, 40.126.35.64]
+
+2026-07-14T17:09:30.6279743+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.226.70, 13.107.253.70, 150.171.110.135]
+
+2026-07-14T17:09:34.1580137+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.112.21, 140.82.114.21, 140.82.113.22]
+
+2026-07-14T17:09:54.4186719+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.253.70, 13.107.226.70, 150.171.110.133]
+
+2026-07-14T17:09:54.7094202+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+nexusrules.officeapps.live.com:443->[13.107.253.70, 13.107.226.70, 13.107.253.69]
+
+2026-07-14T17:09:57.0092399+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.144.161, 20.190.148.162, 40.126.35.144]
+
+2026-07-14T17:10:04.8086694+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+nexusrules.officeapps.live.com:443->[13.107.253.70, 13.107.226.69, 13.107.226.70]
+
+2026-07-14T17:10:30.6096413+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:22->[20.205.243.166, 4.237.22.38, 140.82.112.4]
+
+2026-07-14T17:10:39.3201529+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 4.237.22.38, 140.82.112.3]
+
+2026-07-14T17:10:51.7616806+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.112.21, 140.82.114.21, 140.82.113.21]
+
+2026-07-14T17:11:28.1604761+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.144.161, 20.190.144.137, 20.190.148.162]
+
+2026-07-14T17:12:01.2474104+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2026-07-14T17:12:11.1490524+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+login.live.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2026-07-14T17:12:11.5160640+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.144.165, 20.190.144.161, 20.190.144.160]
+
+2026-07-14T17:12:20.2276571+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+marketplace.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2026-07-14T17:12:49.0023814+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+westus-0.in.applicationinsights.azure.com@119.29.29.29:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2026-07-14T17:12:52.9404248+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2026-07-14T17:12:53.3712222+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:22->[4.237.22.38, 20.205.243.166, 140.82.113.4]
+
+2026-07-14T17:13:04.1182383+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2026-07-14T17:13:04.5043832+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 4.237.22.38, 140.82.113.4]
+
+2026-07-14T17:13:10.3885510+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.253.70, 13.107.226.69, 13.107.226.70]
+
+2026-07-14T17:13:16.1765581+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+westus-0.in.applicationinsights.azure.com:443->[20.189.172.32, 20.189.172.73, 20.189.172.33]
+
+2026-07-14T17:13:16.2782834+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:22->[20.205.243.166, 4.237.22.38, 140.82.113.4]
+
+2026-07-14T17:13:26.7139312+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:22->[20.205.243.166, 4.237.22.38, 140.82.112.4]
+
+2026-07-14T17:13:26.7179876+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 4.237.22.38, 140.82.112.3]
+
+2026-07-14T17:13:48.1487176+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+nexusrules.officeapps.live.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2026-07-14T17:13:50.5182013+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:22->[20.205.243.166, 4.237.22.38, 140.82.114.3]
+
+2026-07-14T17:14:22.4599778+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.144.161, 20.190.144.160, 20.190.144.137]
+
+2026-07-14T17:14:27.8529143+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.144.160, 20.190.144.137, 40.126.35.144]
+
+2026-07-14T17:14:34.6884763+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.113.21, 140.82.112.22, 140.82.114.21]
+
+2026-07-14T17:15:18.5165170+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+copilot-telemetry.githubusercontent.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2026-07-14T17:15:21.1120013+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.253.69, 13.107.226.69, 13.107.226.70]
+
+2026-07-14T17:15:23.2725597+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+nexusrules.officeapps.live.com:443->[13.107.253.69, 13.107.226.69, 13.107.226.70]
+
+2026-07-14T17:15:23.7974988+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.144.160, 20.190.144.137, 20.190.144.162]
+
+2026-07-14T17:15:26.7484830+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+marketplace.visualstudio.com:443->[150.171.74.16, 150.171.73.16]
+
+2026-07-14T17:15:27.3035971+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+westus-0.in.applicationinsights.azure.com:443->[20.189.172.32, 20.189.172.33, 20.189.172.73]
+
+2026-07-14T17:15:39.8525180+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 4.237.22.38, 140.82.114.3]
+
+2026-07-14T17:15:53.0200736+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.113.21, 140.82.114.21, 140.82.114.22]
+
+2026-07-14T17:15:56.0171967+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:22->[20.205.243.166, 4.237.22.38, 140.82.116.4]
+
+2026-07-14T17:15:56.2056092+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 4.237.22.38, 140.82.116.4]
+
+2026-07-14T17:16:28.3911935+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.144.137, 20.190.144.160, 20.190.144.162]
+
+2026-07-14T17:17:12.6442269+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.144.137, 20.190.144.162, 40.126.35.144]
+
+2026-07-14T17:18:13.7154058+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.116.4, 4.237.22.38]
+
+2026-07-14T17:18:18.4173809+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+westus-0.in.applicationinsights.azure.com:443->[20.189.172.73, 20.189.172.33, 20.189.172.32]
+
+2026-07-14T17:18:46.2179310+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:22->[20.205.243.166, 140.82.116.4, 140.82.114.3]
+
+2026-07-14T17:18:46.4695637+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.116.4, 140.82.112.4]
+
+2026-07-14T17:18:51.2875795+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:22->[20.205.243.166, 140.82.112.4, 140.82.114.3]
+
+2026-07-14T17:19:28.3175283+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[140.82.116.4, 140.82.112.4, 140.82.114.3]
+
+2026-07-14T17:19:31.6693234+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.144.137, 20.190.144.162, 20.190.144.161]
+
+2026-07-14T17:19:35.9867599+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.113.21, 140.82.113.22, 140.82.112.22]
+
+2026-07-14T17:19:42.1632077+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.113.21, 140.82.112.21, 140.82.113.22]
+
+2026-07-14T17:20:22.6131342+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.253.69, 13.107.253.70, 13.107.226.70]
+
+2026-07-14T17:20:22.6178008+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+nexusrules.officeapps.live.com:443->[13.107.253.69, 13.107.253.70, 13.107.226.70]
+
+2026-07-14T17:20:26.1550197+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.144.137, 20.190.148.164, 40.126.35.145]
+
+2026-07-14T17:20:27.2434720+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+marketplace.visualstudio.com:443->[150.171.73.16, 150.171.74.16]
+
+2026-07-14T17:20:44.6170126+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[140.82.116.4, 140.82.114.3]
+
+2026-07-14T17:20:44.6206405+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:22->[20.205.243.166, 140.82.114.3, 140.82.116.4]
+
+2026-07-14T17:20:55.0899797+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.113.21, 140.82.112.22, 140.82.112.21]
+
+2026-07-14T17:20:56.3335967+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:22->[20.205.243.166, 140.82.116.4, 140.82.114.3]
+
+2026-07-14T17:21:28.7820844+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.148.164, 40.126.35.145, 40.126.35.128]
+
+2026-07-14T17:22:00.6350825+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.253.69, 13.107.226.69, 150.171.110.133]
+
+2026-07-14T17:22:33.2233134+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+login.live.com@119.29.29.29:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2026-07-14T17:22:33.5401606+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.144.136, 20.190.148.164, 40.126.35.145]
+
+2026-07-14T17:22:35.3614376+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+marketplace.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2026-07-14T17:22:59.1657439+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+westus-0.in.applicationinsights.azure.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2026-07-14T17:23:00.6931476+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2026-07-14T17:23:04.3243460+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2026-07-14T17:23:08.8569673+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2026-07-14T17:23:09.2738988+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[140.82.116.4, 4.225.11.194, 140.82.114.3]
+
+2026-07-14T17:23:19.5965523+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+westus-0.in.applicationinsights.azure.com:443->[20.189.172.33, 20.189.172.32, 20.189.172.73]
+
+2026-07-14T17:23:52.1737099+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+nexusrules.officeapps.live.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2026-07-14T17:23:53.9036379+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[140.82.116.4, 140.82.114.3, 4.225.11.194]
+
+2026-07-14T17:23:54.3283957+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:22->[20.205.243.166, 140.82.116.4, 4.225.11.194]
+
+2026-07-14T17:24:31.2497767+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+fp-afd.azureedge.net->127.0.0.1
+
+2026-07-14T17:24:35.6579456+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.113.22, 140.82.113.21, 140.82.112.22]
+
+2026-07-14T17:24:36.4284167+08:00 [INF]
+FastGithub.AppHostedService
+正在主动关闭，因为父进程已退出
+
+2026-07-14T17:24:40.6529488+08:00 [INF]
+FastGithub.HttpServer
+已监听https://localhost:443，https反向代理服务启动完成
+
+2026-07-14T17:24:40.7056993+08:00 [INF]
+FastGithub.HttpServer
+已监听http://localhost:81，http反向代理服务启动完成
+
+2026-07-14T17:24:40.7826936+08:00 [INF]
+FastGithub.HttpServer
+已监听ssh://localhost:22，github的ssh反向代理服务启动完成
+
+2026-07-14T17:24:40.7840220+08:00 [INF]
+FastGithub.HttpServer
+已监听git://localhost:9418，github的git反向代理服务启动完成
+
+2026-07-14T17:24:40.8350574+08:00 [INF]
+FastGithub.AppHostedService
+FastGithub启动完成，当前版本为v2.1.5，访问 https://github.com/WangGithubUser/FastGithub 关注新版本
+
+2026-07-14T17:24:40.9333064+08:00 [INF]
+FastGithub.PacketIntercept.Tcp.HttpInterceptor
+127.0.0.1:80 <=> 127.0.0.1:81
+
+2026-07-14T17:24:40.9352031+08:00 [INF]
+FastGithub.PacketIntercept.Tcp.HttpInterceptor
+::1:80 <=> ::1:81
+
+2026-07-14T17:26:06.2581746+08:00 [INF]
+FastGithub.AppHostedService
+正在主动关闭，因为父进程已退出
+

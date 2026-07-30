@@ -1,0 +1,34 @@
+[
+  {
+    "host": "westus-0.in.applicationinsights.azure.com",
+    "port": 443
+  },
+  {
+    "host": "github.com",
+    "port": 22
+  },
+  {
+    "host": "marketplace.visualstudio.com",
+    "port": 443
+  },
+  {
+    "host": "nexusrules.officeapps.live.com",
+    "port": 443
+  },
+  {
+    "host": "github.com",
+    "port": 443
+  },
+  {
+    "host": "login.live.com",
+    "port": 443
+  },
+  {
+    "host": "update.code.visualstudio.com",
+    "port": 443
+  },
+  {
+    "host": "copilot-telemetry.githubusercontent.com",
+    "port": 443
+  }
+]

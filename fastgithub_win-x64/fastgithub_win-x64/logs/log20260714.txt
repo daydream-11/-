@@ -1,0 +1,338 @@
+2026-07-14T15:49:16.4513312+08:00 [INF]
+FastGithub.HttpServer
+已监听https://localhost:443，https反向代理服务启动完成
+
+2026-07-14T15:49:16.4984938+08:00 [INF]
+FastGithub.HttpServer
+已监听http://localhost:81，http反向代理服务启动完成
+
+2026-07-14T15:49:16.5377153+08:00 [INF]
+FastGithub.HttpServer
+已监听ssh://localhost:22，github的ssh反向代理服务启动完成
+
+2026-07-14T15:49:16.5387235+08:00 [INF]
+FastGithub.HttpServer
+已监听git://localhost:9418，github的git反向代理服务启动完成
+
+2026-07-14T15:49:16.5973059+08:00 [INF]
+FastGithub.AppHostedService
+FastGithub启动完成，当前版本为v2.1.5，访问 https://github.com/WangGithubUser/FastGithub 关注新版本
+
+2026-07-14T15:49:16.8102376+08:00 [ERR]
+FastGithub.PacketIntercept.DnsInterceptHostedService
+dns拦截器异常
+System.ComponentModel.Win32Exception (5): 拒绝访问。
+   at WindivertDotnet.WinDivert..ctor(String filter, WinDivertLayer layer, Int16 priority, WinDivertFlag flags)
+   at WindivertDotnet.WinDivert..ctor(Filter filter, WinDivertLayer layer, Int16 priority, WinDivertFlag flags)
+   at FastGithub.PacketIntercept.Dns.DnsInterceptor.InterceptAsync(CancellationToken cancellationToken)
+   at FastGithub.PacketIntercept.DnsInterceptHostedService.ExecuteAsync(CancellationToken stoppingToken)
+
+2026-07-14T15:49:16.8597361+08:00 [ERR]
+FastGithub.PacketIntercept.TcpInterceptHostedService
+tcp拦截器异常
+System.ComponentModel.Win32Exception (5): 拒绝访问。
+   at WindivertDotnet.WinDivert..ctor(String filter, WinDivertLayer layer, Int16 priority, WinDivertFlag flags)
+   at WindivertDotnet.WinDivert..ctor(Filter filter, WinDivertLayer layer, Int16 priority, WinDivertFlag flags)
+   at FastGithub.PacketIntercept.Tcp.TcpInterceptor.InterceptAsync(CancellationToken cancellationToken)
+   at FastGithub.PacketIntercept.TcpInterceptHostedService.ExecuteAsync(CancellationToken stoppingToken)
+
+2026-07-14T15:50:01.5341664+08:00 [INF]
+FastGithub.HttpServer
+已监听https://localhost:443，https反向代理服务启动完成
+
+2026-07-14T15:50:01.5813402+08:00 [INF]
+FastGithub.HttpServer
+已监听http://localhost:81，http反向代理服务启动完成
+
+2026-07-14T15:50:01.6220118+08:00 [INF]
+FastGithub.HttpServer
+已监听ssh://localhost:22，github的ssh反向代理服务启动完成
+
+2026-07-14T15:50:01.6230305+08:00 [INF]
+FastGithub.HttpServer
+已监听git://localhost:9418，github的git反向代理服务启动完成
+
+2026-07-14T15:50:01.6796617+08:00 [INF]
+FastGithub.AppHostedService
+FastGithub启动完成，当前版本为v2.1.5，访问 https://github.com/WangGithubUser/FastGithub 关注新版本
+
+2026-07-14T15:50:01.7795918+08:00 [INF]
+FastGithub.PacketIntercept.Tcp.HttpInterceptor
+127.0.0.1:80 <=> 127.0.0.1:81
+
+2026-07-14T15:50:01.7818775+08:00 [INF]
+FastGithub.PacketIntercept.Tcp.HttpInterceptor
+::1:80 <=> ::1:81
+
+2026-07-14T15:51:53.6318641+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+update.code.visualstudio.com->127.0.0.1
+
+2026-07-14T15:51:55.3380359+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+marketplace.visualstudio.com->127.0.0.1
+
+2026-07-14T15:51:56.2373902+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://update.code.visualstudio.com/api/update/win32-x64-user/stable/fc3def6774c76082adf699d366f31a557ce5573f responded 204 in 1659.7586 ms
+
+2026-07-14T15:51:57.3450369+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+OPTIONS https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-vscode/cmake-tools/latest responded 200 in 1570.0207 ms
+
+2026-07-14T15:51:57.3456366+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+OPTIONS https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-azuretools/vscode-containers/latest responded 200 in 1572.1892 ms
+
+2026-07-14T15:51:57.3456724+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+OPTIONS https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-vscode/remote-server/latest responded 200 in 1571.5725 ms
+
+2026-07-14T15:51:57.3460013+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+OPTIONS https://marketplace.visualstudio.com/_apis/public/gallery/vscode/github/copilot-chat/latest responded 200 in 1574.7691 ms
+
+2026-07-14T15:51:57.3460473+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+OPTIONS https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-vscode/cpptools-extension-pack/latest responded 200 in 1571.4539 ms
+
+2026-07-14T15:51:57.3461960+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+OPTIONS https://marketplace.visualstudio.com/_apis/public/gallery/vscode/mathworks/language-matlab/latest responded 200 in 1572.4114 ms
+
+2026-07-14T15:51:57.3462141+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+OPTIONS https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-vscode-remote/remote-ssh/latest responded 200 in 1573.9896 ms
+
+2026-07-14T15:51:57.3462723+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+OPTIONS https://marketplace.visualstudio.com/_apis/public/gallery/vscode/twxs/cmake/latest responded 200 in 1570.6097 ms
+
+2026-07-14T15:51:57.3463548+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+OPTIONS https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-vscode/cpptools-themes/latest responded 200 in 1571.9795 ms
+
+2026-07-14T15:51:57.3480978+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+OPTIONS https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-ceintl/vscode-language-pack-zh-hans/latest responded 200 in 1575.1319 ms
+
+2026-07-14T15:51:57.3486944+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+OPTIONS https://marketplace.visualstudio.com/_apis/public/gallery/vscode/zhuangtongfa/material-theme/latest responded 200 in 1573.3625 ms
+
+2026-07-14T15:51:57.3494995+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+OPTIONS https://marketplace.visualstudio.com/_apis/public/gallery/vscode/tonka3000/qtvsctools/latest responded 200 in 1572.5472 ms
+
+2026-07-14T15:51:57.3500944+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+OPTIONS https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-vscode/remote-explorer/latest responded 200 in 1575.6895 ms
+
+2026-07-14T15:51:57.3506607+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+OPTIONS https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-vscode-remote/remote-containers/latest responded 200 in 1578.0516 ms
+
+2026-07-14T15:51:57.3511753+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+OPTIONS https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-vscode-remote/remote-wsl/latest responded 200 in 1579.8694 ms
+
+2026-07-14T15:51:57.3515713+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+OPTIONS https://marketplace.visualstudio.com/_apis/public/gallery/vscode/docker/docker/latest responded 200 in 1585.3778 ms
+
+2026-07-14T15:51:57.3518929+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+OPTIONS https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-vscode-remote/remote-ssh-edit/latest responded 200 in 1580.0497 ms
+
+2026-07-14T15:51:57.3523933+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+OPTIONS https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-vscode/cpp-devtools/latest responded 200 in 1577.6124 ms
+
+2026-07-14T15:51:57.3528683+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+OPTIONS https://marketplace.visualstudio.com/_apis/public/gallery/vscode/anthropic/claude-code/latest responded 200 in 1582.5712 ms
+
+2026-07-14T15:51:57.3668537+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+OPTIONS https://marketplace.visualstudio.com/_apis/public/gallery/vscode/formulahendry/code-runner/latest responded 200 in 1609.0109 ms
+
+2026-07-14T15:51:57.3891956+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+OPTIONS https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-azuretools/vscode-docker/latest responded 200 in 1615.7896 ms
+
+2026-07-14T15:51:57.3894762+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+OPTIONS https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-vscode/cpptools/latest responded 200 in 1614.7306 ms
+
+2026-07-14T15:51:57.3899464+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+OPTIONS https://marketplace.visualstudio.com/_apis/public/gallery/vscode/aaron-bond/better-comments/latest responded 200 in 1633.8046 ms
+
+2026-07-14T15:51:57.4183100+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+OPTIONS https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-vscode-remote/vscode-remote-extensionpack/latest responded 200 in 1643.2615 ms
+
+2026-07-14T15:51:57.4736611+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-azuretools/vscode-containers/latest responded 200 in 108.7333 ms
+
+2026-07-14T15:51:57.4736285+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://marketplace.visualstudio.com/_apis/public/gallery/vscode/github/copilot-chat/latest responded 200 in 95.2613 ms
+
+2026-07-14T15:51:57.4736303+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-vscode/cpptools-extension-pack/latest responded 200 in 87.7198 ms
+
+2026-07-14T15:51:57.4185956+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+OPTIONS https://marketplace.visualstudio.com/_apis/public/gallery/vscode/utsavm9/c-cpp-flag-debugging/latest responded 200 in 1643.2476 ms
+
+2026-07-14T15:51:57.4737942+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://marketplace.visualstudio.com/_apis/public/gallery/vscode/mathworks/language-matlab/latest responded 200 in 86.7359 ms
+
+2026-07-14T15:51:57.4739222+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-vscode/cmake-tools/latest responded 200 in 112.5171 ms
+
+2026-07-14T15:51:57.5071578+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://marketplace.visualstudio.com/_apis/public/gallery/vscode/twxs/cmake/latest responded 200 in 109.4755 ms
+
+2026-07-14T15:51:57.5072745+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-vscode/cpptools-themes/latest responded 200 in 103.5776 ms
+
+2026-07-14T15:51:57.5130657+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-vscode-remote/remote-containers/latest responded 200 in 84.633 ms
+
+2026-07-14T15:51:57.5132526+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-vscode-remote/remote-ssh/latest responded 200 in 118.625 ms
+
+2026-07-14T15:51:57.5137705+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://marketplace.visualstudio.com/_apis/public/gallery/vscode/zhuangtongfa/material-theme/latest responded 200 in 97.5575 ms
+
+2026-07-14T15:51:57.5182246+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-vscode-remote/remote-wsl/latest responded 200 in 82.9979 ms
+
+2026-07-14T15:51:57.5291368+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-vscode/cpp-devtools/latest responded 200 in 79.3157 ms
+
+2026-07-14T15:51:57.5291688+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://marketplace.visualstudio.com/_apis/public/gallery/vscode/docker/docker/latest responded 200 in 88.8549 ms
+
+2026-07-14T15:51:57.5296604+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://marketplace.visualstudio.com/_apis/public/gallery/vscode/formulahendry/code-runner/latest responded 200 in 72.9006 ms
+
+2026-07-14T15:51:57.5489996+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-azuretools/vscode-docker/latest responded 200 in 87.793 ms
+
+2026-07-14T15:51:57.5491104+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://marketplace.visualstudio.com/_apis/public/gallery/vscode/aaron-bond/better-comments/latest responded 200 in 78.877 ms
+
+2026-07-14T15:51:57.5595112+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-vscode/cpptools/latest responded 200 in 96.6467 ms
+
+2026-07-14T15:51:57.5994112+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-vscode-remote/vscode-remote-extensionpack/latest responded 200 in 109.0892 ms
+
+2026-07-14T15:51:57.6583691+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-vscode/remote-server/latest responded 200 in 286.7299 ms
+
+2026-07-14T15:51:57.6583838+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-ceintl/vscode-language-pack-zh-hans/latest responded 200 in 248.275 ms
+
+2026-07-14T15:51:57.7061174+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-vscode-remote/remote-ssh-edit/latest responded 200 in 262.2086 ms
+
+2026-07-14T15:51:57.7061601+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://marketplace.visualstudio.com/_apis/public/gallery/vscode/tonka3000/qtvsctools/latest responded 200 in 287.1127 ms
+
+2026-07-14T15:51:57.7061584+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-vscode/remote-explorer/latest responded 200 in 283.6145 ms
+
+2026-07-14T15:51:57.7393576+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://marketplace.visualstudio.com/_apis/public/gallery/vscode/anthropic/claude-code/latest responded 200 in 287.7321 ms
+
+2026-07-14T15:51:57.7796278+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://marketplace.visualstudio.com/_apis/public/gallery/vscode/utsavm9/c-cpp-flag-debugging/latest responded 200 in 283.6426 ms
+
+2026-07-14T15:51:58.0633193+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+OPTIONS https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery responded 200 in 273.0727 ms
+
+2026-07-14T15:51:58.4441296+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+POST https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery responded 200 in 371.4757 ms
+
+2026-07-14T15:51:59.3765621+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+POST https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery responded 200 in 925.1942 ms
+
+2026-07-14T15:52:00.7094961+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+marketplace.visualstudio.com:443->[150.171.73.16, 150.171.74.16]
+
+2026-07-14T15:52:02.5368102+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[150.171.110.135, 150.171.110.146]
+
+2026-07-14T15:52:11.0091586+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+westus-0.in.applicationinsights.azure.com->127.0.0.1
+
+2026-07-14T15:52:13.0423540+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+POST https://westus-0.in.applicationinsights.azure.com/v2.1/track responded 200 in 1638.2576 ms
+
+2026-07-14T15:52:13.4240223+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+copilot-telemetry.githubusercontent.com->127.0.0.1
+
+2026-07-14T15:52:13.9684150+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+westus-0.in.applicationinsights.azure.com:443->[20.189.172.32, 20.189.172.73]
+
+2026-07-14T15:52:15.4590871+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[150.171.110.135, 150.171.110.133, 150.171.110.146]
+
+2026-07-14T15:52:19.5916669+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+POST https://copilot-telemetry.githubusercontent.com/telemetry responded 200 in 5822.7258 ms
+
+2026-07-14T15:52:19.9996889+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.112.21, 140.82.113.21, 140.82.113.22]
+
+2026-07-14T15:52:22.8691381+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://update.code.visualstudio.com/api/update/win32-x64-user/stable/fc3def6774c76082adf699d366f31a557ce5573f responded 204 in 523.961 ms
+
+2026-07-14T15:52:55.2012773+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+copilot-telemetry.githubusercontent.com:443->[140.82.112.21, 140.82.113.21, 140.82.114.21]
+
+2026-07-14T15:54:02.8569967+08:00 [INF]
+FastGithub.AppHostedService
+正在主动关闭，因为父进程已退出
+

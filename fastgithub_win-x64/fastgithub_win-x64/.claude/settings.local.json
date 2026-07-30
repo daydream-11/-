@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tasklist.exe)",
+      "Bash(netsh winhttp *)",
+      "Bash(powershell.exe *)",
+      "Bash(netstat -ano)",
+      "Read(//mnt/c/Users/ASUS/AppData/**)"
+    ]
+  }
+}
