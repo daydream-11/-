@@ -1,0 +1,42 @@
+﻿  pch.cpp
+  CmdLineParser.cpp
+  Crypter.cpp
+E:\rmbwk\websoft\code\common\common\easyFunctions.h(360,38): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\rmbwk\websoft\code\common\common\easyFunctions.h(446,47): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+E:\rmbwk\websoft\code\common\common\easyFunctions.h(512,21): warning C4244: “=”: 从“short”转换到“unsigned char”，可能丢失数据
+E:\rmbwk\websoft\code\common\common\easyFunctions.h(568,86): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\rmbwk\websoft\code\common\common\easyFunctions.h(576,85): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\rmbwk\websoft\code\common\common\easyFunctions.h(751,4): warning C4311: “类型强制转换”: 从“HKEY”到“DWORD”的指针截断
+E:\rmbwk\websoft\code\common\common\easyFunctions.h(751,4): warning C4302: “类型强制转换”: 从“HKEY”到“DWORD”截断
+E:\rmbwk\websoft\code\common\common\easyFunctions.h(787,4): warning C4311: “类型强制转换”: 从“HKEY”到“DWORD”的指针截断
+E:\rmbwk\websoft\code\common\common\easyFunctions.h(787,4): warning C4302: “类型强制转换”: 从“HKEY”到“DWORD”截断
+E:\rmbwk\websoft\code\common\common\easyFunctions.h(838,5): warning C4311: “类型强制转换”: 从“HKEY”到“DWORD”的指针截断
+E:\rmbwk\websoft\code\common\common\easyFunctions.h(838,5): warning C4302: “类型强制转换”: 从“HKEY”到“DWORD”截断
+E:\rmbwk\websoft\code\common\common\easyFunctions.h(871,4): warning C4311: “类型强制转换”: 从“HKEY”到“DWORD”的指针截断
+E:\rmbwk\websoft\code\common\common\easyFunctions.h(871,4): warning C4302: “类型强制转换”: 从“HKEY”到“DWORD”截断
+E:\rmbwk\websoft\code\common\common\easyFunctions.h(928,90): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+E:\rmbwk\websoft\code\common\common\easyFunctions.h(1204,6): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+E:\rmbwk\websoft\code\common\common\easyFunctions.h(1233,6): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+E:\rmbwk\websoft\code\common\common\easyFunctions.h(1261,6): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+E:\rmbwk\websoft\code\common\common\easyFunctions.h(1285,5): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+E:\rmbwk\websoft\code\common\common\easyFunctions.h(1308,5): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+E:\rmbwk\websoft\code\common\common\fun.h(1,1): warning C4828: 文件包含在偏移 0x115f 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+E:\rmbwk\websoft\code\common\common\Crypter.cpp(18,46): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\rmbwk\websoft\code\common\common\Crypter.cpp(64,13): warning C4244: “初始化”: 从“std::streamoff”转换到“int”，可能丢失数据
+  dllmain.cpp
+  fun.cpp
+E:\rmbwk\websoft\code\common\common\fun.h(1,1): warning C4828: 文件包含在偏移 0x115f 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+E:\rmbwk\websoft\code\common\common\fun.cpp(475,69): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\rmbwk\websoft\code\common\common\fun.cpp(478,105): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\rmbwk\websoft\code\common\common\fun.cpp(494,85): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\rmbwk\websoft\code\common\common\fun.cpp(497,115): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  HKey.cpp
+  ReportCode.cpp
+E:\rmbwk\websoft\code\common\common\fun.h(1,1): warning C4828: 文件包含在偏移 0x115f 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+  ReportWrite.cpp
+E:\rmbwk\websoft\code\common\common\fun.h(1,1): warning C4828: 文件包含在偏移 0x115f 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+E:\rmbwk\websoft\code\common\common\ReportWrite.cpp(35,53): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\rmbwk\websoft\code\common\common\ReportWrite.cpp(36,53): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  SoftVersion.cpp
+  WinRegistryKey.cpp
+  common.vcxproj -> E:\rmbwk\websoft\code\common\common\Build\Release\common.lib

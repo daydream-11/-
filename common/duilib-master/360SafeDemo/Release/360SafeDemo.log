@@ -1,0 +1,4 @@
+﻿  StdAfx.cpp
+E:\rmbwk\websoft\code\common\duilib-master\DuiLib\Core\UIManager.h(45,2): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+  360Safe.cpp
+LINK : fatal error LNK1181: 无法打开输入文件“duilib.lib”

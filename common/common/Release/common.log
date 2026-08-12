@@ -1,0 +1,23 @@
+﻿  pch.cpp
+  CmdLineParser.cpp
+  Crypter.cpp
+G:\rmbwk\websoft\code\common\common\easyFunctions.h(512,21): warning C4244: “=”: 从“short”转换到“unsigned char”，可能丢失数据
+  (编译源文件“/Crypter.cpp”)
+  
+G:\rmbwk\websoft\code\common\common\Crypter.cpp(64,13): warning C4244: “初始化”: 从“std::streamoff”转换到“int”，可能丢失数据
+  (编译源文件“/Crypter.cpp”)
+  
+  dllmain.cpp
+  fun.cpp
+  HKey.cpp
+  ReportCode.cpp
+  ReportWrite.cpp
+G:\rmbwk\websoft\code\common\common\ReportWrite.cpp(43,20): warning C4018: “<”: 有符号/无符号不匹配
+  (编译源文件“/ReportWrite.cpp”)
+  
+G:\rmbwk\websoft\code\common\common\ReportWrite.cpp(46,20): warning C4018: “<”: 有符号/无符号不匹配
+  (编译源文件“/ReportWrite.cpp”)
+  
+  SoftVersion.cpp
+  WinRegistryKey.cpp
+  common.vcxproj -> G:\rmbwk\websoft\code\common\common\Build\Release\common_static.lib

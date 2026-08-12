@@ -1,0 +1,93 @@
+﻿  pch.cpp
+  CmdLineParser.cpp
+  Crypter.cpp
+D:\work_new\Duilib_Project\common\common\easyFunctions.h(360,36): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“/Crypter.cpp”)
+  
+D:\work_new\Duilib_Project\common\common\easyFunctions.h(446,39): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+  (编译源文件“/Crypter.cpp”)
+  
+D:\work_new\Duilib_Project\common\common\easyFunctions.h(512,21): warning C4244: “=”: 从“short”转换到“unsigned char”，可能丢失数据
+  (编译源文件“/Crypter.cpp”)
+  
+D:\work_new\Duilib_Project\common\common\easyFunctions.h(568,66): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“/Crypter.cpp”)
+  
+D:\work_new\Duilib_Project\common\common\easyFunctions.h(576,65): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“/Crypter.cpp”)
+  
+D:\work_new\Duilib_Project\common\common\easyFunctions.h(751,7): warning C4311: “类型强制转换”: 从“HKEY”到“DWORD”的指针截断
+  (编译源文件“/Crypter.cpp”)
+  
+D:\work_new\Duilib_Project\common\common\easyFunctions.h(751,7): warning C4302: “类型强制转换”: 从“HKEY”到“DWORD”截断
+  (编译源文件“/Crypter.cpp”)
+  
+D:\work_new\Duilib_Project\common\common\easyFunctions.h(787,7): warning C4311: “类型强制转换”: 从“HKEY”到“DWORD”的指针截断
+  (编译源文件“/Crypter.cpp”)
+  
+D:\work_new\Duilib_Project\common\common\easyFunctions.h(787,7): warning C4302: “类型强制转换”: 从“HKEY”到“DWORD”截断
+  (编译源文件“/Crypter.cpp”)
+  
+D:\work_new\Duilib_Project\common\common\easyFunctions.h(838,8): warning C4311: “类型强制转换”: 从“HKEY”到“DWORD”的指针截断
+  (编译源文件“/Crypter.cpp”)
+  
+D:\work_new\Duilib_Project\common\common\easyFunctions.h(838,8): warning C4302: “类型强制转换”: 从“HKEY”到“DWORD”截断
+  (编译源文件“/Crypter.cpp”)
+  
+D:\work_new\Duilib_Project\common\common\easyFunctions.h(871,7): warning C4311: “类型强制转换”: 从“HKEY”到“DWORD”的指针截断
+  (编译源文件“/Crypter.cpp”)
+  
+D:\work_new\Duilib_Project\common\common\easyFunctions.h(871,7): warning C4302: “类型强制转换”: 从“HKEY”到“DWORD”截断
+  (编译源文件“/Crypter.cpp”)
+  
+D:\work_new\Duilib_Project\common\common\easyFunctions.h(928,76): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+  (编译源文件“/Crypter.cpp”)
+  
+D:\work_new\Duilib_Project\common\common\easyFunctions.h(1204,55): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+  (编译源文件“/Crypter.cpp”)
+  
+D:\work_new\Duilib_Project\common\common\easyFunctions.h(1233,53): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+  (编译源文件“/Crypter.cpp”)
+  
+D:\work_new\Duilib_Project\common\common\easyFunctions.h(1261,53): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+  (编译源文件“/Crypter.cpp”)
+  
+D:\work_new\Duilib_Project\common\common\easyFunctions.h(1285,46): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+  (编译源文件“/Crypter.cpp”)
+  
+D:\work_new\Duilib_Project\common\common\easyFunctions.h(1308,44): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+  (编译源文件“/Crypter.cpp”)
+  
+D:\work_new\Duilib_Project\common\common\Crypter.cpp(18,44): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“/Crypter.cpp”)
+  
+D:\work_new\Duilib_Project\common\common\Crypter.cpp(64,13): warning C4244: “初始化”: 从“std::streamoff”转换到“int”，可能丢失数据
+  (编译源文件“/Crypter.cpp”)
+  
+  dllmain.cpp
+  fun.cpp
+D:\work_new\Duilib_Project\common\common\fun.cpp(475,53): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“/fun.cpp”)
+  
+D:\work_new\Duilib_Project\common\common\fun.cpp(478,49): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“/fun.cpp”)
+  
+D:\work_new\Duilib_Project\common\common\fun.cpp(494,54): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“/fun.cpp”)
+  
+D:\work_new\Duilib_Project\common\common\fun.cpp(497,50): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“/fun.cpp”)
+  
+  HKey.cpp
+  ReportCode.cpp
+  ReportWrite.cpp
+D:\work_new\Duilib_Project\common\common\ReportWrite.cpp(35,51): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“/ReportWrite.cpp”)
+  
+D:\work_new\Duilib_Project\common\common\ReportWrite.cpp(36,51): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“/ReportWrite.cpp”)
+  
+  SoftVersion.cpp
+  WinRegistryKey.cpp
+  正在生成代码...
+  common.vcxproj -> D:\work_new\Duilib_Project\common\common\Build\Debug\common.lib

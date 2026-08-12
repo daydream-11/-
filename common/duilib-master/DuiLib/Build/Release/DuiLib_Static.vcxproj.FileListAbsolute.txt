@@ -1,0 +1,1 @@
+E:\rmbwk\websoft\code\common\duilib-master\DuiLib\Build\Release\DuiLib_Static.lib
