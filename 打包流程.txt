@@ -1,0 +1,234 @@
+1.打包
+qtcreator中切换qt版本
+切换v5 v4 版本 	
+编译通过
+查看realease文件夹
+	如果是static版本， 选中需要打的安装包
+	如果是非static版本 就在cpack文件夹中打开cmd 运行cpack  
+
+使用wosigncode 进行数字签名认证
+从证书库里面找到需要打的两个签名（一般只打weihaoyi）
+ 密码12345678
+拖入的是需要数字签名的安装包
+
+
+2.加入新的产品规格
+修改之前先git pull
+背景改名为  产品名Download  放入 resources/background/v5
+logo改名为 产品名  转换为icon6464格式放入resources/icon     https://www.aconvert.com/cn/icon/png-to-ico/
+带名字logo改名为产品名-full 加上原本的png  放入resources/images
+在cmakelist列表中加入
+
+提交本地修改
+	git add .
+	git commit -m "  : "
+	git push 
+  
+
+
+3.git命令
+git status 
+git log --oneline -10
+git checkout v5   
+git revert 分支名
+git add
+git commit -m “。。。”（约定式提交）
+git restore . 
+git fetch 
+git reset --hard origin/v5
+	git rebase -i HEAD~5
+	git push -f
+git stash    暂时屏蔽diff
+git pull -rebase
+git stash pop  恢复diff	
+
+只对还没有 push 到远程的本地提交做 rebase。
+# 2. 发现信息写错了，修改 commit message
+git commit --amend -m "正确的提交信息"
+
+# 3. 此时还没有 push，直接正常推送即可
+git push origin feature/branch
+# 2. 发现信息写错了，修改 commit message
+git commit --amend -m "正确的提交信息"
+
+# 3. 因为远程已经有旧的提交了，需要强制覆盖
+git push -f origin feature/branch
+# ⚠️ 必须使用 -f 或 --force-with-lease
+
+不小心把脚本提交到缓冲区： 把文件的修改从缓冲区去掉  保留工作区的修改内容：
+git restore --staged tools/auto_build.py
+扔掉工作区和缓冲区 将本地代码本地仓库最新一次提交完全一样  不是远程仓库最新代码！！！
+git reset --hard HEAD
+
+
+4.大批量运行脚本进行打包
+每次提交不要把脚本提交上去
+py ./auto-build.py -t 3 -c 3
+在脚本最下面修改Qt版本
+脚本运行完成之后把错误列表截图发给成老师
+
+5.约定式提交
+feat:
+fix:
+chore:
+build:  add more product 
+
+qmlscene Coupon.qml
+
+
+6.自动化提交和打包（加入若干产品时）
+	先确认版本  v4 5 6  v4版本图片名称以4开头 没有logo-full 
+	切换版本时操作：
+		（git reset --hard HEAD ） 
+   		git stash    暂时屏蔽diff	
+		git checkout v4	
+		git pull -rebase
+		git stash pop  恢复diff	 
+	
+	进入到tools目录
+	py ./import_resources.py "路径"  （将图片自动导入到resources资源中）自动在pack_list中添加新的产品名称
+	获取cmake配置  复制到cmakelists   （ PRODUCT_KEY找濮老师要）
+	py ./check_config.py   找到cmakelists中没有添加的项  添加到cmakelists中
+	打包之前运行一遍 py ./parse_cmake_config.py    更新pack_config.json  才能运行auto_build.py
+ 	在build_list.txt(白名单)中加入要打的产品的名称
+	最后用py ./auto_build.py -f build_list.txt   自动打包   
+		fix_logos用于处理ico文件没有成功加入的情况
+	打完包的东西在release/cpack
+	签上数字签名  一般都是weihaoyi
+	没有木马发给翟老师
+
+进入第六版前进行提交
+图片资源的修改  cmakelists的修改 /pack_config.json的修改
+
+进入第六版进行删除那两个软件
+提交cmakelists 提交/pack_config.json（运行一遍parse）
+	
+
+
+进度条逻辑  最开始知道文件大体总数
+timer计时器逻辑 需要异步操作 文件先存再使用
+数据动态流入
+列表项接受进度条界面传来的数据
+
+qtcreator要用管理员权限
+status的异常只能用 缺失来代表错误
+	
+
+# set(SOFT_TYPE "dc")
+# set(PRODUCT_KET "dcDownload")
+# set(WEB_BASIC_API_URL "https://api.bkwl6.com")
+我把这个删掉了  把所有的小dc换成了大dc
+		
+adobepsmac
+
+
+遇到qt.gui.iageio: libpng warning : iCCP:known inccoreect SRGB profiel  使用特定文件对图片进行修复、
+
+
+金洪鑫  857285
+
+外网面板地址: https://115.231.130.248:13407/5c38f39a
+username: aarwcdkm
+password: qXtxQrBPM6
+
+PUT http://idc-api.kqlwhy.com/api/download/parse
+key  1ryBOUTKj4wyaDVkzoM4BBuBNJAgHqWQ
+downloadDirPath  /data/upload
+version3Code  v3.5
+version4Code  v4.10
+version6Code  v6.2
+
+文件   根目录 data upload
+
+http://115.231.130.248:13407/files 在这个网址下把文件拖过来
+在Apifox中直接发送出去
+
+
+
+
+/data/sourceFile/download/v4.11/ExplorerPatcher
+
+
+什么情况下应该在函数后面加上noexcept
+
+ExplorerPatcher->Explorer->e
+
+
+
+v6
+VMware     1
+Tableau       1
+UG            1
+Tekla       1
+Rhino      1
+Recuva         1
+Visio           1
+Lightroom   1
+GXWorks     1
+Teams        1
+Proteus         1
+PowerShell    1
+GXWorks        1
+PowerBI       1
+Navisworks  1
+ArcGIS        1
+
+v4
+VMware       1
+CATIA       1
+Rhino      1
+Seetong     1
+SketchUp     1
+3DSMAX     1
+VSCode      1
+BarTender    1
+PaintToolSAI   1
+Nvivo       1
+Tableau       1
+
+VectorMagic        1
+TopazGigapixelAi  1
+TZJZ                   1
+Tabnine              1
+010Editor         1
+TeamViewer  ------>>>TeamView
+
+
+
+打包报毒问题从三个方面进行排查：
+	a单独改SOFT_TYPE     --------> 将ExplorerPatcher改为ExplorPatch
+	
+
+	b单独该PRODUCT_KET---------> 将GXworks  的product_ket从GXWorksDownload改为GXDownload   立刻报毒 v6.3_GXWorks_down_0819
+				Lightroom         lightroomDownload    LightDownloadMac  刚发上去时未报毒
+                                                                                            10点17分   预计十五分钟后再次查看v6.3_Lightroom_down_0819
+				截止到10点42分 未发现问题
+				Navisworks    NavisworksDownload  NaviDownload   立刻报毒v6.3_Navisworks_down_0819
+
+
+	c单独改图片		修改了GXWorks的图片  全部置为空白    11:25刚发上去未报毒13点34分开始报毒
+				Lightroom 11:56
+				Naviswoeks 11:56
+				
+
+	改ab	-------------》       在b的基础上修改为：
+				GXworks     GX
+				Lightroom     Light
+				Navisworks        Navi       13点37分报毒
+				对应的网页上的产品配置同样修改   对应图片名字同样修改  对应的build_list同样修改
+				刚发上去时下载安装未报毒10点40分  预计十五分钟后进行再次检查
+				但是之前的ExplorerPatcher在两者都修改的情况下出现了三小时重新报毒的情况，因此只能认为在大部分情况下 ，同时修改SOFT_TYPE和PRODUCT_KET能够消除报毒
+				
+ 	改ac
+	改bc
+	改abc
+ExplorerPatcher目前的状态是cmakelists中SOFT_TYPE为ExplorPatch  这个在产品配置中也同步
+		product_ket未作修改
+v6_feature不小心提交了auto_build的CD修改
+目前：
+GXworks     GXworks     GXWorksDownload
+Lightroom     Light   LightDownloadMac  
+Navisworks        Navi   NaviDownload   
+
+产品不具备报毒偏好特性
+
