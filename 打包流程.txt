@@ -195,40 +195,63 @@ TeamViewer  ------>>>TeamView
 
 
 
-打包报毒问题从三个方面进行排查：
-	a单独改SOFT_TYPE     --------> 将ExplorerPatcher改为ExplorPatch
+打包报毒问题从七个方面进行排查：
+ 		【a】   【b】    【c】   【ab】    【ac】   【bc】     【abc】
+	×a单独改SOFT_TYPE     
+				将ExplorerPatcher改为ExplorPatch报毒
 	
 
-	b单独该PRODUCT_KET---------> 将GXworks  的product_ket从GXWorksDownload改为GXDownload   立刻报毒 v6.3_GXWorks_down_0819
-				Lightroom         lightroomDownload    LightDownloadMac  刚发上去时未报毒
-                                                                                            10点17分   预计十五分钟后再次查看v6.3_Lightroom_down_0819
-				截止到10点42分 未发现问题
-				Navisworks    NavisworksDownload  NaviDownload   立刻报毒v6.3_Navisworks_down_0819
+	×b单独改PRODUCT_KET  
+				GXworks     GXDownload   立刻报毒 v6.3_GXWorks_down_0819
+				Lightroom   lightDownload  刚发上去时未报毒（10点17分）  v6.3_Lightroom_down_0819  截止到10点42分 未发现问题  于13点54分报毒
+				Navisworks   NaviDownload  立刻报毒 包名v6.3_Navisworks_down_0819
 
 
-	c单独改图片		修改了GXWorks的图片  全部置为空白    11:25刚发上去未报毒13点34分开始报毒
-				Lightroom 11:56
-				Naviswoeks 11:56
+	×c单独改图片（修改了所有图片  全部置为空白）
+					v6.3_GXWorks_down_0820    	11:25 	13点34分开始报毒
+					v6.3_Lightroom_down_0820    11:56      15点29分报毒
+					v6.3_Navisworks_down_0820     11:56
 				
 
-	改ab	-------------》       在b的基础上修改为：
-				GXworks     GX
-				Lightroom     Light
-				Navisworks        Navi       13点37分报毒
-				对应的网页上的产品配置同样修改   对应图片名字同样修改  对应的build_list同样修改
-				刚发上去时下载安装未报毒10点40分  预计十五分钟后进行再次检查
-				但是之前的ExplorerPatcher在两者都修改的情况下出现了三小时重新报毒的情况，因此只能认为在大部分情况下 ，同时修改SOFT_TYPE和PRODUCT_KET能够消除报毒
+	×改ab			GXworks     GX    GXDownload      v6.3_GX_down_0819   10点40分
+				Lightroom     Light   lightDownload v6.3_Light_down_0819       10点40分    15点27分报毒 
+				Navisworks        Navi   NaviDownload v6.3_Navis_down_0819  10点40分    13点37分报毒
 				
- 	改ac
+				注意事项：之前的ExplorerPatcher在两者都修改的情况下出现了三小时重新报毒的情况，因此只能认为在大部分情况下 ，同时修改SOFT_TYPE和PRODUCT_KET能够消除报毒
+				
+ 	改ac   	GXworks     GX     GXWorksDownload    v6.3_GX_down_0821        14点33分     
+			Lightroom     Light   lightroomDownload  v6.3_Light_down_0821   14点33分					
+			Navisworks        Navi   NavisworksDownload   v6.3_Navi_down_0821   14点33分
+
+
+
 	改bc
-	改abc
-ExplorerPatcher目前的状态是cmakelists中SOFT_TYPE为ExplorPatch  这个在产品配置中也同步
-		product_ket未作修改
-v6_feature不小心提交了auto_build的CD修改
-目前：
-GXworks     GXworks     GXWorksDownload
-Lightroom     Light   LightDownloadMac  
-Navisworks        Navi   NaviDownload   
+			GXworks     GXworks     GXDownload  14点06分     v6.3_GXWorks_down_0821
+			Lightroom     Light   lightDownload    14点07分      v6.3_Lightroom_down_0821
+			Navisworks        Navi   NaviDownload    14点07分  v6.3_Navisworks_down_0821
 
-产品不具备报毒偏好特性
+
+
+	改abc  
+			GXworks     GX     GXWorksDownload    v6.3_GX_down_0821        14点58分     
+			Lightroom     Light   lightroomDownload  v6.3_Light_down_0821   14点58分					
+			Navisworks        Navi   NavisworksDownload   v6.3_Navi_down_0821   14点58分
+
+			
+※※※※※※※※※※※※※※※
+
+1.需要修改的地方：
+对应的网页上的产品配置同样修改   对应图片名字同样修改  对应的build_list同样修改
+
+2.ExplorerPatcher目前的状态是cmakelists中SOFT_TYPE为ExplorPatch  这个在产品配置中也同步  product_ket未作修改
+
+3.v6_feature不小心提交了auto_build的CD修改
+
+4.GXworks     GX     GXDownload
+   Lightroom     Light   lightDownload  
+   Navisworks        Navi   NaviDownload   
+
+5.产品不具备报毒偏好特性，即每个产品报错几率相同，没有某个产品一直报毒情况
+
+
 
