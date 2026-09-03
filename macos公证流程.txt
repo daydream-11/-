@@ -1,0 +1,17 @@
+1. 以ps为例，先用下面的命令签名生成的dmg：
+codesign --sign "Developer ID Application: chan niu (JV7NMMPW2T)" ./s3_ps1029.dmg
+
+2. 公证，这会持续等待直到有结果，这应该会生成一个Submission ID：
+xcrun notarytool submit ./s3_ps1029.dmg --keychain-profile "niuchan-profile" --wait
+
+3. 若一直没有结果，则中断指令使用下面的命令查看对应Submission ID的结果（替换里面的<Submission-ID>）：
+xcrun notarytool info "<Submission-ID>" --keychain-profile "niuchan-profile"
+
+4. 如果你不确定哪个是Submission ID，则使用下面的命令查看历史公证记录：
+xcrun notarytool history --keychain-profile "niuchan-profile"
+
+5. 确保status一栏显示的是Accepted，则公证通过，使用下面的命令附加票据：
+xcrun stapler staple ./s3_ps1029.dmg
+
+6. 最后验证：
+xcrun stapler validate ./s3_ps1029.dmg
